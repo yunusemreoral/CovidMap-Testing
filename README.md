@@ -1,80 +1,24 @@
-Gerekli Kütüphaneler
-@testing-library/jest-dom
-@testing-library/react
-axios
-millify
-react-simple-maps
-react-router-dom
-react-icons
-tailwindcss
-@reduxjs/toolkit
-react-redux
-redux-thunk
+# CovidMap Testing 🦠
 
-Kaynaklar
-Detay Verileri İçin: https://rapidapi.com/api-sports/api/covid-193/playground/apiendpoint_2feca6f0-0f58-40b7-9196-98c45c7d5083
+<li>Bu proje Covid-19 virüsünün yarattığı sonuçlarının gösterildiği tüm ülkeleri kapsayan dünya haritadır.</li>
+<li>Her ülke için vaka,ölüm verilerine harita üzerinden detay sayfasından erişebilirsiniz.</li>
 
-Toplam Verileri İçin: https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/playground/apiendpoint_191c58c7-a995-4024-a5ee-41043d79e542
+# Kullanılan Teknolojiler 🎨
 
-TOPOJSON: https://github.com/topojson/world-atlas?tab=readme-ov-file
+<li>⭐ React</li>
+<li>⭐ Vite</li>
+<li>⭐ React-Router-Dom</li>
+<li>⭐ React-Redux</li>
+<li>⭐ Reduxjs-Toolkit</li>
+<li>⭐ React-İcons</li>
+<li>⭐ Tailwindcss</li>
+<li>⭐ React-Simple-Maps</li>
+<li>⭐ Millify</li>
+<li>⭐ Axios</li>
+<li>⭐ React-Testing-Library</li>
 
-Bazı Test Methodları
-Sadece describe içerrisinde kullanıalabilen methodlar:
+# Ekran Görüntüsü 🎥
+<img src="covidmap" width="auto">    
 
-beforeEach : her testin öncesinde çalışır
-
-afterEach : her tesin sonrasında çalışır
-
-beforeAll : bütün testlerin öncesinde çalışır
-
-afterAll : bütün testlerin sonrasında çalışır
-
-Selector
-Ekrandaki elementleri almak için kullandığımız seçici methodları 3 ana parçadan oluşur:
-Method:
-Get: Ekrandaki elementi alamazsa hata fırlatır.
-Query: Ekrandaki elementi alamazsa null döndürür.
-Find: Ekrana asenkron olarak basılan elementleri almak için kullanılır.
-All İfadesi:
-Eğerki ekrandan sorgu koşuluna uygun birden fazla element almak istiyorsak method'un devamını all ifadesini ekleriz
-All kullanırsak dönen cevap dizi formatında olur.
-getAllBy | queryAllBy | findAllBy
-Sorgu Methodu:
-Hangi yöntemle elementi seçiceğimi belirleyen method
-
-ByRole
-
-ByLabelText
-
-ByPlaceholder
-
-ByText
-
-ByTitle
-
-ByTestId
-
-ByAltText
-
-ByDisplayValue
-
-Örnek
-
-getByTestId - getAllByTestId
-
-queryByTestId - queryAllByTestId
-
-findByTestId - findAllByTestId
-
-TDD - TAD
-Test Driven Development
-
-Koddan önce testlerin yazıldığı geliştirme yöntemidir.
-
-Geliştirici önce başarısız testleri yazar, sonra bu testleri geçicek kodları yazar.
-
-red to green test
-
-Test After Development
-
-Kod tamamlandıktan sonra testlerin yazıldığı geleneksel yöntemdir.
+# İletişim 📩
+yunusemreoral@hotmail.com.tr
