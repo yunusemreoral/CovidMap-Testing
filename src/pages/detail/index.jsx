@@ -10,8 +10,12 @@ const Detail = () => {
   const {country} = useParams();
   const dispatch = useDispatch();
 
-  useEffect(() => {
+  const getData = () => {
     dispatch(getDetails(country));
+  }
+
+  useEffect(() => {
+    getData();
   }, [country]);
 
   return (
@@ -19,7 +23,7 @@ const Detail = () => {
     <div className="bg-white border shadow-2xl min-h-[80%] py-6 px-8 rounded-lg max-w-4xl max-md:w-full md:w-[80%]">
       <Head/>
 
-      <Content/>
+      <Content getData={getData} />
     </div>
   </div>
   );

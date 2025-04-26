@@ -4,7 +4,7 @@ import Card from './card'
 import { useSelector } from 'react-redux'
 
 
-const Content = () => {
+const Content = ({getData}) => {
 // store abone ol
   const {isLoading,error,data} = useSelector((store) => store);
 //data nesnesini diziye çevir
@@ -16,7 +16,7 @@ const arr = Object.entries(data || {}).filter(([key]) => key !== "flag");
         isLoading ? (
         <ContentLoader/>
       ) : error ? (
-         <Error info={error} />
+         <Error info={error} refetch={getData} />
         ) : (
            arr.map((item,key) => <Card key={key} item={item} />)
           )}
