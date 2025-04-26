@@ -18,7 +18,7 @@
 <li>⭐ React-Testing-Library</li>
 
 # Ekran Görüntüsü 🎥
-<img src="covidmap" width="auto">    
+<img src="covidmap.gif" width="auto">    
 
 # İletişim 📩
 yunusemreoral@hotmail.com.tr
