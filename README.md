@@ -2,6 +2,7 @@
 
 <li>Bu proje Covid-19 virüsünün yarattığı sonuçlarının gösterildiği tüm ülkeleri kapsayan dünya haritadır.</li>
 <li>Her ülke için vaka,ölüm verilerine harita üzerinden detay sayfasından erişebilirsiniz.</li>
+<li>React-Testing-Library kütüphanesi ile test işlemleri yapılmıştır.</li>
 
 # Kullanılan Teknolojiler 🎨
 
